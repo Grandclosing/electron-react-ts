@@ -27,9 +27,14 @@ Electron-React-Ts uses [Foreman](https://www.npmjs.com/package/foreman), a manag
 `"name"` - set this to the name of your project 
 `"version"` - set this to whatever version your project is in your versioning scheme 
 
-5. Remove the `.git` directory from the top-level directory - then create one for your own project
+5. Remove the `.git` directory from the top-level directory - then create one for your own project, and add a remote to your Github project
 
 `> rm -rf .git && git init`
+`> git remote add origin [your Github project URL here]`
+
+You can troubleshoot/verify your remote with:
+
+`> git remote -v`
 
 6. Run the project - this will start up a development server, display boilerplate UI in an Electron window, complete with hot-reloading for fast, on-the-fly updates as you code.
 
