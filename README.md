@@ -49,7 +49,18 @@ Look at this repo with a grain of salt. I mashed together a bunch of tutorials a
 
 I tend to organize my React projects by making a Components directory, with a separate directory for each component. In it, I keep the styles, tests, and JavaScript/TypeScript code all in one place. For additional directory structures, check out this nifty article: [Structuring React Projects](https://survivejs.com/react/advanced-techniques/structuring-react-projects/). 
 
-__Further note:__ I have only tested this dev setup on MacOS, I cannot guarentee this will work on Windows out of the box. 
+__Further note:__ I have only tested this dev setup on MacOS, I cannot guarentee this will work on Windows out of the box. They come from the packages: 
+
+### Security Concerns
+
+Note that NPM and Github will complain about various security concerns within the dependencies of the project. 
+
+`hoek` - prototype pollution 
+`uglify.js` - incorrect handling of non-boolian comparisons during minification; regular expression denial of service 
+`foreman` - denial of service 
+`cryptiles` - Insufficient Entropy 
+
+I believe all of these exist as dev-dependencies and are of no concern. I've seen various discussions claiming Github is marking some of these despite having versions with fixes. You can run `npm audit fix` to fix some of these. Of course be sure to look into these yourself if you have project-specific conerns. 
 
 ### Suggestions for improvement? 
 
