@@ -21,4 +21,6 @@ Look at this repo with a grain of salt. I mashed together a bunch of tutorials a
 
 With React I recommend a component-based filesystem structure. Under /src, I'd make a directory called 'components', and for each component a subdirectory. I might even split it down further and have a /src/components/stateful and /src/components/stateless, or something. I don't know - who cares, it's your project anyway. 
 
+Further note: I have only tested this dev setup on MacOS, I cannot guarentee this will work on Windows out of the box. 
+
 Happy hacking! 
