@@ -56,8 +56,11 @@ __Further note:__ I have only tested this dev setup on MacOS, I cannot guarentee
 Note that NPM and Github will complain about various security concerns within the dependencies of the project. 
 
 `hoek` - prototype pollution 
+
 `uglify.js` - incorrect handling of non-boolian comparisons during minification; regular expression denial of service 
+
 `foreman` - denial of service 
+
 `cryptiles` - Insufficient Entropy 
 
 I believe all of these exist as dev-dependencies and are of no concern. I've seen various discussions claiming Github is marking some of these despite having versions with fixes. You can run `npm audit fix` to fix some of these. Of course be sure to look into these yourself if you have project-specific conerns. 
