@@ -31,7 +31,7 @@ Electron-React-Ts uses [Foreman](https://www.npmjs.com/package/foreman), a manag
 ### Note: I am not by any means a Dev-Ops guru 
 Look at this repo with a grain of salt. I mashed together a bunch of tutorials and boilerplates until I got something that worked for me. It might not be your ideal set up. Additionally, I left the [Create React App](https://github.com/facebookincubator/create-react-app) source files in there, allbeit in a different structure - it's up to you to clean it up and get rid of whatever you don't want. This was motivated by the fact that I couldn't get any other Github boilerplate project running out of the box. 
 
-I tend to organize my React projects by making a Components directory, with a separate directory for each component. In it, I keep the styles, tests, and JavaScript/TypeScript code all in one place. 
+I tend to organize my React projects by making a Components directory, with a separate directory for each component. In it, I keep the styles, tests, and JavaScript/TypeScript code all in one place. For additional directory structures, check out this nifty article: [Structuring React Project](https://survivejs.com/react/advanced-techniques/structuring-react-projects/). 
 
 Further note: I have only tested this dev setup on MacOS, I cannot guarentee this will work on Windows out of the box. 
 
