@@ -1,6 +1,6 @@
 # A simple, easy to use boilerplate project for web-powered desktop applications. 
 
-The poilerplate runs on [Electron](https://electronjs.org/) and enables the use of [React.js](https://reactjs.org/), bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app), and [TypeScript](https://www.typescriptlang.org/).
+The poilerplate runs on [Electron](https://electronjs.org/) and enables the use of [TypeScript](https://www.typescriptlang.org/), and [React.js](https://reactjs.org/), bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Testing is done via [Jest](https://jestjs.io/) and [Enzyme](https://airbnb.io/enzyme/).
 
