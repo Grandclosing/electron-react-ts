@@ -31,6 +31,7 @@ Electron-React-Ts uses [Foreman](https://www.npmjs.com/package/foreman), a manag
 5. Remove the `.git` directory from the top-level directory - then create one for your own project, and add a remote to your Github project
 
 `> rm -rf .git && git init`
+
 `> git remote add origin [your Github project URL here]`
 
 You can troubleshoot/verify your remote with:
