@@ -57,7 +57,7 @@ Feel free to make a PR to improve this boilerplate. Remember to keep with the 's
 
 Happy hacking! 
 
-## DON'T BE A DICK PUBLIC LICENSE
+## DON'T BE A DICK PUBLIC LICENSE - [DBAD](https://dbad-license.org/)
 
 > Version 1.1, December 2016
 
