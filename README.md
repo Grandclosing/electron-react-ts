@@ -1,5 +1,7 @@
 # A simple, easy to use boilerplate project for web-powered desktop applications. 
 
+<img src="https://b.kisscc0.com/20180814/cew/kisscc0-electron-node-js-javascript-computer-icons-npm-electron-by-yyk-mail-ru-5b731fe571cb14.6498724715342714614661.png" alt="Electron" width="200" />
+
 ![Electron](https://b.kisscc0.com/20180814/cew/kisscc0-electron-node-js-javascript-computer-icons-npm-electron-by-yyk-mail-ru-5b731fe571cb14.6498724715342714614661.png) ![TypeScript](https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png) ![React](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) ![Jest](https://seeklogo.com/images/J/jest-logo-F9901EBBF7-seeklogo.com.png?t=636751984710000000) ![Enzyme](https://cdn-images-1.medium.com/max/1600/1*pu9U8EYL3KGrgvapyp1pSg.png)
 The poilerplate runs on [Electron](https://electronjs.org/) and enables the use of [TypeScript](https://www.typescriptlang.org/), and [React.js](https://reactjs.org/), bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
